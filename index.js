@@ -2,8 +2,8 @@ var http = require('http');
 
 var server = http.createServer(function(request, response) {
 
-    response.writeHead(2000, {"Content-Type": "text/plain"});
-    response.end("ITAcademy Vasiliy COMPLETE!!!");
+    response.writeHead(200, {"Content-Type": "text/plain"});
+    response.end("ITAcademy DOCKER FILE VASILIY COMPLETE!!!");
 
 });
 
